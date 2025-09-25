@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    background-color: rgba(227, 158, 30, 0.942);
+}
+
+.Navbar {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: rgb(212, 127, 8);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Nav-contents {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    right: 300px;
+}
+
+.Nav-contents a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.Nav-contents a:hover {
+    color: black;
+}
+
+
+.logotext {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+button.profile {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    padding: 10px;
+    border-width: 0cap;
+    background-color: white;
+    background: url(profile3.jpg) center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.profile-window {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid orange;
+    z-index: 10;
+    padding: 10px;
+    z-index: 2;
+}
+
+.profile-pic img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.l1 {
+    width: 80%;
+    margin: 20px;
+}
+
+.user-name {
+    margin: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.food-menu {
+    position: relative;
+    padding: 20px;
+    padding-top: 60px;
+    margin-top: 50px;
+    justify-content: left;
+}
+
+.food-menu .Headbox {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    height: 300px;
+    width: 1420px;
+    padding: 30px;
+    border: 1px solid rgb(218, 140, 14);
+    margin-top: 50px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+
+}
+
+.food-menu .Headbox img {
+    width: 450px;
+    height: 300px;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.food-menu .Headbox h3 {
+    text-align: center;
+    margin-left: 100px;
+    padding: 20px;
+    margin-bottom: 50px;
+    font-size: 4rem;
+    color: rgb(212, 127, 8);
+}
+
+.search-bar {
+    display: flex;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 200%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 1rem;
+    border: 1px solid rgb(218, 140, 14);
+    border-radius: 8px;
+    color: rgb(170, 170, 170);
+}
+
+.search-bar button {
+    position: relative;
+    left: 320px;
+    margin-left: 0px;
+    width: 100px;
+    height: 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid rgb(218, 140, 14);
+    background-color: rgb(212, 127, 8);
+    cursor: pointer;
+    color: white;
+    font-size: 1.8 rem;
+}
+
+.search-bar button:hover {
+    background-color: rgb(218, 140, 14);
+    color: black;
+}
+
+.items {
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(1, 5fr);
+}
+
+.box {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    width: 1380px;
+    height: 200px;
+    padding: 50px;
+    border: 1px solid rgb(218, 140, 14);
+    text-align: center;
+    margin: 20 auto;
+    margin-top: 10px;
+}
+
+.box img {
+    width: 200px;
+    height: 200px;
+}
+
+.box h2 {
+    margin-left: 50px;
+}
+
+.box p {
+    margin-left: 50px;
+}
+
+.box:hover {}
+
+.items2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 25px;
+    width: 600px;
+    height: 200px;
+    padding: 50px;
+    border: 1px solid rgb(218, 140, 14);
+    text-align: center;
+    margin: 10 auto;
+    margin-top: 10px;
+}
+
+.box2 img {
+    width: 200px;
+    height: 200px;
+}
+
+.box2 h2 {
+    margin-left: 20px;
+}
+
+.box2 p {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.box2:hover {
+    background-color: rgb(218, 140, 14);
+    cursor: pointer;
+}
+
+/*.food-menu .Statusbox {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 25px;
+    height: 300px;
+    width: 1420px;
+    padding: 30px;
+    border: 1px solid rgb(218, 140, 14);
+    margin-top: 30px;
+    margin: 20px auto;
+    margin-bottom: 50px;
+
+}
+
+.food-menu .Statusbox img {
+    width: 450px;
+    height: 300px;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.food-menu .Statusbox h1 {
+    text-align: left;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+    color: rgb(100, 100, 100);
+}
+
+.Statusbox .Restraunt {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 60px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    color: rgb(100, 100, 100);
+}
+
+.Statusbox .date {
+    margin-top: 70px;
+    font-size: 1.3rem;
+    color: rgb(100, 100, 100);
+
+}
+
+.Statusbox .time {
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 1.3rem;
+    color: rgb(100, 100, 100);
+}
+
+.Statusbox .members {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 70px;
+    font-size: 1.3rem;
+    color: rgb(100, 100, 100);
+}
+
+.Restraunt .address img {
+    width: 30px;
+    height: 30px;
+    vertical-align: text-bottom;
+    padding-right: 10px;
+}
+
+.Restraunt .address {
+    margin-top: 20px;
+    margin-left: 1px;
+    padding: 5px;
+    font-size: 1.2rem;
+    color: rgb(100, 100, 100);
+}
+
+.Restraunt .Order {
+    margin-top: 30px;
+    margin-left: 20px;
+}*/
+
+
+.food-menu .Statusbox {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    border: 1px solid rgb(218, 140, 14);
+    margin: 30px auto;
+    width: 90%;
+    gap: 20px;
+}
+
+.food-menu .Statusbox img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.food-menu .Statusbox h1 {
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(212, 127, 8);
+    margin-bottom: 2px;
+}
+
+.Statusbox .Restraunt {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 1.2rem;
+    color: rgb(100, 100, 100);
+}
+
+.Statusbox .Restraunt h2 {
+    font-size: 1.5rem;
+    color: rgb(212, 127, 8);
+
+}
+
+.Restraunt .address {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Restraunt .Order {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Statusbox .Restraunt .address img {
+    width: 16px;
+    height: 16px;
+}
+
+.Statusbox .details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    font-size: 1.2rem;
+    color: rgb(100, 100, 100);
+}
+
+.date,
+.time,
+.members {
+    text-align: right;
+    font-size: 1.2rem;
+    color: rgb(100, 100, 100);
+    margin-bottom: 110px;
+
+}
+
+.Statusbox .edit-button {
+    margin-top: 150px;
+    margin-right: 100px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(212, 127, 8);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100px;
+}
+
+
+.type {
+    margin-left: 50px;
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid rgb(212, 127, 8);
+    border-radius: 10px;
+}
+
+.option {
+    border-bottom: 1px solid rgb(212, 127, 8);
+    width: 200px;
+    margin-left: 50px;
+    padding: 10px;
+    background-color: white;
+}
+
+.optbar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.last {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.switch {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    margin: 50px;
+    bottom: 10px;
+    padding: 20px;
+    border-radius: 25px;
+    width: 200px;
+
+}
+
+.show {
+    display: none;
+}
+
+.veg {
+
+    position: absolute;
+    left: 0;
+    width: 45%;
+    padding: 10px;
+    padding-left: 50px;
+    bottom: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 30px;
+    background-color: rgb(177, 251, 92);
+    cursor: pointer;
+}
+
+.nonveg {
+    position: absolute;
+    right: 0;
+    width: 40%;
+    padding: 10px;
+    padding-left: 20px;
+    bottom: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    height: 30px;
+    cursor: pointer;
+}

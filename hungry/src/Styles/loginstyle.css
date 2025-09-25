@@ -1,0 +1,127 @@
+/*23BDS0015
+SAHIL MOHRIL
+*/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 153, 14);
+
+}
+
+.credentials {
+    position: relative;
+    top: 40px;
+    border-radius: 25px;
+    height: 420px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid rgb(218, 140, 14);
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.signupcredentials {
+    position: relative;
+    top: 40px;
+    border-radius: 25px;
+    height: 420px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid rgb(218, 140, 14);
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.logo img {
+    width: 200px;
+    height: 150px;
+}
+
+
+.credentials label {
+    display: block;
+    color: black;
+    font-size: medium;
+}
+
+.credentials input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    border: 1px solid rgb(218, 140, 14);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(122, 123, 123);
+
+}
+
+
+.credentials label {
+    color: rgb(40, 39, 39);
+    font-size: medium;
+}
+
+.login {
+    font-size: large;
+    font-weight: bold;
+}
+
+.uid {
+    margin-bottom: 0.5px;
+}
+
+.password {
+    margin-bottom: 10px;
+
+
+}
+
+.credentials input {
+    margin-bottom: 30px;
+
+}
+
+button.login {
+    top: 100px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(212, 127, 8);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.signup {
+    position: relative;
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+button.login:hover {
+    opacity: 1;
+}

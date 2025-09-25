@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(227, 158, 30, 0.942);
+
+}
+
+.Navbar {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: rgb(212, 127, 8);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Nav-contents {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    right: 300px;
+}
+
+.Nav-contents a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.Nav-contents a:hover {
+    color: black;
+}
+
+.logotext {
+    position: relative;
+    left: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+button.profile {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    padding: 10px;
+    border-width: 0cap;
+    background-color: white;
+    /*background: url(profile3.jpg) center;*/
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.search {
+    position: relative;
+    padding: 20px;
+    padding-top: 60px;
+    left: 180px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.search h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.search p {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+}
+
+.search-bar {
+    display: flex;
+    text-align: center;
+    margin-left: 220px;
+}
+
+.search-bar button {
+    position: relative;
+    left: 340px;
+    margin-left: 0px;
+    width: 100px;
+    height: 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid rgb(218, 140, 14);
+    background-color: rgb(212, 127, 8);
+    cursor: pointer;
+    color: white;
+    font-size: 1.8 rem;
+}
+
+.search-bar button:hover {
+    background-color: rgb(218, 140, 14);
+    color: black;
+}
+
+.search-bar input {
+    width: 280%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid rgb(218, 140, 14);
+    border-radius: 8px;
+}
+
+.menu {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    right: 50px;
+}
+
+.box {
+    background-color: white;
+    border-radius: 25px;
+    width: 300px;
+    padding: 30px;
+    border: 1px solid rgb(218, 140, 14);
+    text-align: center;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+}
+
+.box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: rgb(100, 100, 100);
+}
+
+.box p {
+    font-size: 1.2rem;
+    color: rgb(100, 100, 100);
+}
+
+.box:hover {
+    background-color: rgb(218, 140, 14);
+    cursor: pointer;
+}
+
+.Explore p {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Category {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+}
+
+.Category .box {
+    position: relative;
+    right: 30px;
+    background-color: white;
+    border-radius: 25px;
+    width: 200px;
+    padding: 50px;
+    padding-left: 10px;
+    border: 1px solid rgb(218, 140, 14);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Category .box h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: rgb(100, 100, 100);
+}
+
+.Category .box img {
+    width: 80px;
+    height: 80px;
+}
+
+.Category .box:hover {
+    background-color: rgb(218, 140, 14);
+    cursor: pointer;
+}
+
+.profile-window {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid orange;
+    z-index: 10;
+    padding: 10px;
+}
+
+.profile-pic img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.l1 {
+    width: 80%;
+    margin: 20px;
+}
+
+.user-name {
+    margin: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+}

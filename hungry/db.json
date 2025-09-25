@@ -1,0 +1,269 @@
+{
+  "foods": [
+    {
+      "id": "1",
+      "name": "Dal Makhni",
+      "image": "https://myfoodstory.com/wp-content/uploads/2018/08/Dal-Makhani-New-3-500x500.jpg",
+      "price": 40,
+      "rating": 4.5,
+      "description": "Made with Dal",
+      "category": "Lunch",
+      "type": "Veg",
+      "cuisine": "North Indian",
+      "restaurant": [
+        "Haldirams",
+        "Bikanervala",
+        "Sagar Ratna"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Butter Chicken",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2021/02/butter-chicken-ac2ff98.jpg",
+      "price": 200,
+      "rating": 4.7,
+      "description": "Made with Butter and Chicken",
+      "category": "Dinner",
+      "type": "Non Veg",
+      "cuisine": "North Indian",
+      "restaurant": [
+        "Punjab Grill",
+        "KFC",
+        "Moti Mahal"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Aloo Paratha",
+      "image": "https://cookingfromheart.com/wp-content/uploads/2020/09/Aloo-Paratha-4.jpg",
+      "price": 50,
+      "rating": 4.6,
+      "description": "Stuffed Aloo in Paratha",
+      "category": "Breakfast",
+      "type": "Veg",
+      "cuisine": "North Indian",
+      "restaurant": [
+        "Gopal Sweets",
+        "Pind Balluchi",
+        "Street Food Hub"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Rajma Chawal",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP2AZrqHDvi9GoVXLAFN0dsGC1IVY8isDUtA&s",
+      "price": 60,
+      "rating": 4.8,
+      "description": "Made with Rajma and Chawal",
+      "category": "Lunch",
+      "type": "Veg",
+      "cuisine": "Chinese",
+      "restaurant": [
+        "Rajdhani",
+        "Haldirams",
+        "Home Kitchen"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Paneer Tikka",
+      "image": "https://images.slurrp.com/prod/recipe_images/transcribe/snack/Paneer-Tikka.webp?impolicy=slurrp-20210601&width=1200&height=675",
+      "price": 120,
+      "rating": 4.9,
+      "description": "Made with Paneer and spices",
+      "category": "Snacks",
+      "type": "Veg",
+      "cuisine": "North Indian",
+      "restaurant": [
+        "Barbeque Nation",
+        "Bikanervala",
+        "Street Food Hub"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Masala Dosa",
+      "image": "https://vismaifood.com/storage/app/uploads/public/8b4/19e/427/thumb__1200_0_0_0_auto.jpg",
+      "price": 80,
+      "rating": 4.7,
+      "description": "Crispy dosa stuffed with spicy potato filling",
+      "category": "Breakfast",
+      "type": "Veg",
+      "cuisine": "South Indian",
+      "restaurant": [
+        "Sagar Ratna",
+        "Madras Cafe",
+        "Udupi Krishna"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Idli Sambar",
+      "image": "https://i0.wp.com/cookingwithpree.com/wp-content/uploads/2020/11/tiffin-sambar-instant-pot-instagram-5-1.jpg?fit=4821%2C3857&ssl=1",
+      "price": 60,
+      "rating": 4.8,
+      "description": "Steamed rice cakes served with sambar and chutney",
+      "category": "Breakfast",
+      "type": "Veg",
+      "cuisine": "South Indian",
+      "restaurant": [
+        "Saravana Bhavan",
+        "Dosa Express",
+        "MTR"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Pasta Alfredo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYY1GWo5E49WS6_LkfhH35Wc1Q8sLdVlhEcw&s",
+      "price": 150,
+      "rating": 4.6,
+      "description": "Creamy white sauce pasta",
+      "category": "Dinner",
+      "type": "Veg",
+      "cuisine": "Continental",
+      "restaurant": [
+        "Cafe Mocha",
+        "Pizza Hut",
+        "The Pasta Bar"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "French Fries",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-S6BmCEcWmhaWNy8QeBCTttMyOaRmzd6yjw&s",
+      "price": 70,
+      "rating": 4.5,
+      "description": "Crispy fried potato sticks",
+      "category": "Snacks",
+      "type": "Veg",
+      "cuisine": "Snacks",
+      "restaurant": [
+        "McDonald's",
+        "KFC",
+        "Burger King"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Gulab Jamun",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwD0Bc4D9NiCxSTWy7vkzgunqM8wyCYFh1wg&s",
+      "price": 50,
+      "rating": 4.9,
+      "description": "Sweet deep-fried dumplings soaked in sugar syrup",
+      "category": "Dessert",
+      "type": "Veg",
+      "cuisine": "Sweets",
+      "restaurant": [
+        "Haldirams",
+        "Bikanervala",
+        "Sweet Corner"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Cold Coffee",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-pltA2U43TSDjBfxH5oQ6wyne1-xVE5eJdg&s",
+      "price": 90,
+      "rating": 4.8,
+      "description": "Chilled coffee with milk and sugar",
+      "category": "Beverages",
+      "type": "Veg",
+      "cuisine": "Beverages",
+      "restaurant": [
+        "Cafe Coffee Day",
+        "Starbucks",
+        "Costa Coffee"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Greek Salad",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyOMWg5Hp0tW8xZI5wcHGrUiBtEChxQdkiyQ&s",
+      "price": 120,
+      "rating": 4.7,
+      "description": "Fresh veggies with olives and feta cheese",
+      "category": "Diet",
+      "type": "Veg",
+      "cuisine": "Diet",
+      "restaurant": [
+        "Salad Days",
+        "Fresh Menu",
+        "Eat Fit"
+      ]
+    }
+  ],
+  "Cart": [
+    {
+      "id": "3",
+      "name": "Aloo Paratha",
+      "image": "https://cookingfromheart.com/wp-content/uploads/2020/09/Aloo-Paratha-4.jpg",
+      "price": 50,
+      "rating": 4.6,
+      "description": "Stuffed Aloo in Paratha",
+      "category": "Breakfast",
+      "type": "Veg",
+      "cuisine": "North Indian",
+      "restaurant": [
+        "Gopal Sweets",
+        "Pind Balluchi",
+        "Street Food Hub"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Gulab Jamun",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwD0Bc4D9NiCxSTWy7vkzgunqM8wyCYFh1wg&s",
+      "price": 50,
+      "rating": 4.9,
+      "description": "Sweet deep-fried dumplings soaked in sugar syrup",
+      "category": "Dessert",
+      "type": "Veg",
+      "cuisine": "Sweets",
+      "restaurant": [
+        "Haldirams",
+        "Bikanervala",
+        "Sweet Corner"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Cold Coffee",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-pltA2U43TSDjBfxH5oQ6wyne1-xVE5eJdg&s",
+      "price": 90,
+      "rating": 4.8,
+      "description": "Chilled coffee with milk and sugar",
+      "category": "Beverages",
+      "type": "Veg",
+      "cuisine": "Beverages",
+      "restaurant": [
+        "Cafe Coffee Day",
+        "Starbucks",
+        "Costa Coffee"
+      ]
+    }
+  ],
+  "Restaurant": [
+    {
+      "id": "1",
+      "name": "The Gourmet Spot",
+      "address": "123 Main St, Food City",
+      "image": "restaurant1.jpg",
+      "description": "A fine dining experience with exquisite flavors."
+    },
+    {
+      "id": "2",
+      "name": "Tasty Bites",
+      "address": "456 Market St, Culinary Town",
+      "image": "restaurant2.jpg",
+      "description": "Delicious and affordable meals for everyone."
+    },
+    {
+      "id": "3",
+      "name": "Spice Haven",
+      "address": "789 Curry Rd, Spice City",
+      "image": "restaurant3.jpg",
+      "description": "Authentic spicy dishes to tingle your taste buds."
+    }
+  ]
+}
